@@ -30,7 +30,7 @@ li {
 }
 
 li:hover {
-    transform: scale(1.05);
+    transform: translateX(10px);
 }
 
 footer {
@@ -41,13 +41,13 @@ footer {
     cursor: pointer;
 }
 
-
+/* Hover effect for skills */
 ul li:hover {
-    transform: scale(1.1);
+    transform: translateX(10px);
     transition: transform 0.3s ease-in-out;
 }
 
-
+/* Show/hide skill descriptions */
 ul li p {
     display: none;
     margin-top: 5px;
@@ -57,4 +57,4 @@ ul li:hover p.show-description {
     display: block;
 }
 
-
+/* Add more styles as needed */
